@@ -3,17 +3,17 @@
     "url": "xiaoshubao.net",
     "version": 100,
     "search": {
-        "url": "https://www.xiaoshubao.net/home/search/@post->searchkey=${key}&q=0",
+        "url": "https://www.xiaoshubao.net/home/search.html@post->searchkey=${key}&q=0",
         "charset": "utf-8",
-        "list": "#nr",
+        "list": "#item-cover",
         "name": "h3>a",
         "author":".book_other>span:nth-child(1)",
         "cover":"img",
         "detail": "h3>a"
-            },
+    },
     "detail": {
         "catalog": ""
-            },
+    },
     "catalog": {
         "list": "#chapterList>li",
         "name": "a",
