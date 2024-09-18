@@ -1,7 +1,7 @@
 {
     "name": "超星图书",
     "url": "yz4.chaoxing.com",
-    "version": 105,
+    "version": 106,
     "search": {
         "url": "http://yz4.chaoxing.com/circlemarket/getsearch@post->start=0&size=25&sw=${key}&channelId=52",
         "charset": "UTF-8",
@@ -22,7 +22,7 @@
     "chapter": {
         "content": "#contentBox > div > p"
     }   ,
-      "rank": [
+    "rank": [
       {       
          "title":"推荐", 
          "url": "http://yz4.chaoxing.com/circlemarket/getBook@post->start=0&size=1000&channelId=130",
@@ -163,5 +163,6 @@
                 { "key": 1000000522, "value": "小人书"},
                 { "key": 1000000486, "value": "生活百科"}],
                 "list": "$.subject"}
-       ]}
+       ]
+}
         
