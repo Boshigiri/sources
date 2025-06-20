@@ -3,7 +3,7 @@
     "url": "www.shencou.com",
     "version": 104,
     "search": {
-        "url": "http://www.shencou.com/modules/article/sousuo.php@post->searchtype=articlename+selected&searchkey=${key}&t_btnsearch=%CB%D1%CB%F7",
+        "url": "http://www.shencou.com/modules/article/search.php?searchtype=articlename&searchkey=${key}",
         "charset": "gb2312",
         "list": "div.main > div#centerm > div#content > table.grid > tbody > tr:gt(0)",
         "name": "td:nth-child(1) > a",
