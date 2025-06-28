@@ -8,7 +8,7 @@
         "list": "div.item",
         "name": "dl > dt > a",
         "author": "dl > dt > span",
-        "cover": ".image",
+        "cover": "div.image > a > img",
         "detail": "dl > dd"
     }
 }
