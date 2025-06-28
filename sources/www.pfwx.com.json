@@ -3,13 +3,12 @@
     "url": "https://www.pfxss.com/",
     "version": 100,
     "search": {
-        "url": "https://www.sososhu.com/?q=${key}&site=pfwxw",
+        "url": "https://www.sososhu.com/?site=pfwxw&q=${key}",
         "charset": "utf-8",
         "list": "div.wrap > div.block.so_list > div.hot > div.item",
         "name": "dl > dt > a",
         "author": "dl > dt > span",
         "cover": ".image",
-        "summary": "",
         "detail": "dl > dd"
     },
     "detail": {
