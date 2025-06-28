@@ -1,0 +1,35 @@
+{
+    "name": "平凡文学",
+    "url": "https://www.pfxss.com/",
+    "version": 100,
+    "search": {
+        "url": "https://www.sososhu.com/?q=${key}&site=pfwxw&Submit=搜索",
+        "charset": "utf-8",
+        "list": "div.block so_list > div.hot > div.item",
+        "name": "dl > dt > a",
+        "author": "dl > dt > span",
+        "cover": ".image",
+        "summary": "",
+        "detail": "dl > dd"
+    },
+    "detail": {
+        "name": "meta[property=og:book_name]@attr->content",
+        "author": "meta[property=og:novel:author]@attr->content",
+        "cover": "meta[property=og:image]@attr->content",
+        "summary": "#intro",
+        "status": "",
+        "update": "#info > p:nth-child(4)",
+        "lastChapter": "#info > p:nth-child(5) > a",
+        "catalog": ""
+    },
+    "catalog": {
+        "list": "#list > dl > dd",
+        "name": "a",
+        "chapter": "a"
+    },
+    "chapter": {
+        "content": "#content",
+        "filter": ["@p","@a"],
+        "purify": ["报送后维护人员会在两分钟内校正章节内容,请耐心等待。"]
+    }
+}
