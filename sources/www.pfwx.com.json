@@ -5,7 +5,7 @@
     "search": {
         "url": "https://www.sososhu.com/?q=${key}&site=pfwxw",
         "charset": "utf-8",
-        "list": "div.warp > div.block so_list > div.hot > div.item",
+        "list": "div.wrap > div.block so_list > div.hot > div.item",
         "name": "dl > dt > a",
         "author": "dl > dt > span",
         "cover": ".image",
