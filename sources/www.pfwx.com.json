@@ -3,7 +3,7 @@
     "url": "https://www.pfxss.com/",
     "version": 100,
     "search": {
-        "url": "https://www.sososhu.com/?q=${key}&site=pfwxw&Submit=搜索",
+        "url": "https://www.sososhu.com/?q=${key}&site=pfwxw",
         "charset": "utf-8",
         "list": "div.block so_list > div.hot > div.item",
         "name": "dl > dt > a",
