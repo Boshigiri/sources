@@ -1,0 +1,14 @@
+{
+    "name": "笔趣阁",
+    "url": "https://m.bqgl.cc/",
+    "version": 104,
+    "search": {
+        "url": "https://m.bqgl.cc/s?q=${key}",
+        "charset": "utf-8",
+        "list": "div.wrap > div.block.so_list > div.hot > div.item",
+        "name": "dl > dt > a",
+        "author": "dl > dt > span",
+        "cover": ".image",
+        "detail": "dl > dd"
+    }
+}
