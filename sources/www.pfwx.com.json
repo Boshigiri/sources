@@ -1,7 +1,7 @@
 {
     "name": "笔趣阁",
     "url": "https://www.fsshu.com/",
-    "version": 100,
+    "version": 105,
     "search": {
         "url": "https://www.fsshu.com/search.php?q=${key}",
         "charset": "utf-8",
@@ -9,5 +9,25 @@
         "name": "h3 > a",
         "author": "span",
         "cover": "img"
+    },
+    "detail": {
+        "name": "h1",
+        "author": "li > a@replace->小说作者：",
+        "cover": "img",
+        "summary": "div.intro_pc > br"
+    },
+    "catalog": {
+        "list": "div.book_list.book_list2 > div.row > li",
+        "orderBy": 0,
+        "booklet": {
+            "name": "a",
+            "list": "li"
+        },
+        "name": "a",
+        "chapter": "a"
+    },
+    "chapter": {
+        "content": "#font_max",
+        "page": "div.box.single > div.row.nav_bottom > div.col-3:nth-child(3)"
     }
 }
