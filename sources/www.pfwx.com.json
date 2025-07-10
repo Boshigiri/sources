@@ -12,12 +12,12 @@
     },
     "detail": {
         "name": "h1",
-        "author": "li > a@replace->小说作者：",
+        "author": "li",
         "cover": "img",
-        "summary": "div.intro_pc > br"
+        "summary": "div.intro.d_none.d-md-block > br"
     },
     "catalog": {
-        "list": "div.book_list.book_list2 > div.row > li",
+        "list": "div.book_list.book_list2 > div.row > li > a",
         "orderBy": 0,
         "booklet": {
             "name": "a",
